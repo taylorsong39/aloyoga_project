@@ -1,0 +1,200 @@
+#wrap{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+}
+.header_inner{
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+header .logo{
+    position: absolute;
+    top: 40px; left: 0;
+    width: 100%;
+}
+header .logo a{
+    display: block;
+    width: 60px; height: 60px;
+    background: url(../img/logo.png) no-repeat center center / 100% auto;
+    font-size: 0;
+}
+header .util{
+    position: absolute;
+    top: 8px; right: 0px;
+}
+header .util li{
+    display: inline-block;
+    margin-left: 10px;
+    background: url(../img/bg_bar01.gif) no-repeat 0 center / 1px auto;
+    padding-left: 10px;
+}
+header .util li a{
+    color: #000;
+    font-size: 14px;
+}
+header .util li:first-child{
+    background: none;
+}
+header .openM{
+    position: absolute;
+    top: 40px; left: 0;
+}
+header .openM a{
+    display: none;
+    width: 55px; height: 80px;
+    background: url(../img/icon_gnb.png) no-repeat -26px / 65px auto;
+    font-size: 0;
+}
+header .menu{
+    width: 80%;
+    position: absolute;
+    top: 40px; left: 0;
+    z-index: 100;
+    display: none;
+}
+header .menu .closeM{
+    display: block;
+    width: 55px; height: 80px;
+    font-size: 0;
+    background: #fff url(../img/close.png) no-repeat center center / 20px auto;
+}
+header .menu .gnb{
+    width: 100%;
+    max-width: 600px;
+}
+header .menu .gnb .depth1 h2 a{
+    display: block;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #000;
+    font-weight: normal;
+    font-size: 16px;
+    border-top: 1px solid #ddd;
+}
+header .menu .gnb .depth2{
+    display: none;
+}
+header .menu .gnb .depth2 li a{
+    display: block;
+    padding: 12px 20px;
+    background-color: #444;
+    color: #eee;
+    border-top: 1px solid #555;
+    font-size: 14px;
+}
+header .openS{
+    position: absolute;
+    top: 40px; right: 0;
+}
+header .openS a{
+    display: block;
+    width: 55px; height: 80px;
+    background:  url(../img/icon_gnb.png) no-repeat 20px / 65px auto;
+    font-size: 0;
+}
+header .closeS a{
+    font-size: 0;
+}
+header .search{
+    background-color: aqua;
+    position: absolute;
+    top: 60px; right: 0;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+/* header 끝 */
+#mainSlider{
+    position: relative;
+}
+#mainSlider .simg img{
+    width: 100%; height: auto;
+}
+#mainSlider .simg .pc{
+    display: none;
+}
+/* mainSlider */
+.cont1{
+    width: 1400px;
+    margin: 100px auto;
+}
+.cont1_tit{
+    margin-bottom: 62px;
+    position: relative;
+}
+.cont1_tit h3{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.cont1_tit h3 a{}
+.cont1_box>div{
+    width: 332px;
+    height: 496px;
+    background: url(../img/activity1.jpg) no-repeat center center;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+}
+.cont1_box>div:nth-child(2){
+    background-image: url(../img/activity2.jpg);
+}
+.cont1_box>div:nth-child(3){
+    background-image: url(../img/activity3.jpg);
+}
+.cont1_box>div:nth-child(4){
+    background-image: url(../img/activity4.jpg);
+    margin-right: 0;
+}
+.cont1_box>div dl{
+    position: absolute;
+    left: 18px;
+    bottom: 13px;
+}
+.cont1_box>div dl dt{
+    font-size: 20px;
+    color: #fff;
+}
+#footer {
+    background-color: #000;
+    height: 200px;
+}
+.ft_inner {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 70px 0;
+    position: relative;
+}
+.ft_inner .ftlogo{
+    position: absolute;
+    margin-left: 160px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ft_menu{
+    margin-left: 430px;
+}
+.ft_menu li{
+    float: left;
+    margin-right: 45px;
+}
+.ft_menu li a{
+    color: #fff;
+    opacity: 0.8;
+}
+.finfo{
+    position: absolute;
+    left: 430px;
+}
+.finfo p {
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.8;
+    line-height: 1.5em;
+    margin-top: 25px;
+}
